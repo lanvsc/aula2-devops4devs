@@ -1,4 +1,6 @@
 ### **DESAFIO AULAS 3-4 - AWS e GitHub Actions.**
+
+**- Aula3:**
 **- Configurar/autenticar AWS CLI:**
 ```
 aws configure
@@ -29,3 +31,10 @@ Alterar deployment.yaml da aula 2, alterando linhas:
 >- 83 -type: LoadBalancer
 ``` 
 kubectl apply -f k8s/deployment.yaml
+
+**- Aula4:**
+
+**- Criar pipeline com GitHub Actions:**
+```
+**- Configurar pipeline para execução automática:**
+
