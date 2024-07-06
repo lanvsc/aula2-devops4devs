@@ -38,3 +38,6 @@ kubectl apply -f k8s/deployment.yaml
 ```
 **- Configurar pipeline para execução automática:**
 
+
+>**- Verificar versões das imagens no Docker Hub:**
+https://hub.docker.com/repository/docker/lanvsc/review-filmes/general
