@@ -62,8 +62,9 @@ Você vai utilizar o mesmo repositório do desafio anterior.
 - Documentação do Projeto:
 - Documente todo o processo de configuração e deploy no arquivo README-DESAFIO.md do repositório.
 
-# Aula 05 
+### **AULA 5**
+Monitoramento e visão 360 da sua aplicação com Prometheus e Grafana
 
-### Comando para obter a senha do Grafana
+- Comando para obter a senha do Grafana
 ```
 kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-password}" | base64 --decode
