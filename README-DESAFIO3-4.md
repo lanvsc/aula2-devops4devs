@@ -99,7 +99,7 @@ CD:
               ./k8s/deployment.yaml
           images: |
             lanvsc/review-filmes:v${{github.run_number}}
-``` 
+```
 
 > Verificar versões das imagens no Docker Hub:
 https://hub.docker.com/repository/docker/lanvsc/review-filmes/general
