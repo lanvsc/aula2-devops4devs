@@ -10,15 +10,18 @@ https://s3.us-west-2.amazonaws.com/amazon-eks/cloudformation/2020-10-29/amazon-e
 ```
 **- Criar EKS:**
 ```
-k3d cluster create devops4devs -p "8080:30000@loadbalancer"
+Painel AWS
 ```
 **- Criar Nodes EKS:**
 ```
-docker push lanvsc/review-filmes:v1
+Painel AWS
+Seleções:
+Instância on demand
+T3.medium
+Desired size:3
+Minimum size:2
+Maximum size:4
 ```
->Link
-https://hub.docker.com/repository/docker/lanvsc/review-filmes
-
 **-Deploy**
 Alterar deployment.yaml da aula 2, alterando linhas: 
 >82 -#nodePort: 30000
