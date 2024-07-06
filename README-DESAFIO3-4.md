@@ -24,7 +24,8 @@ Maximum size:4
 ```
 **-Deploy**
 Alterar deployment.yaml da aula 2, alterando linhas: 
->82 -#nodePort: 30000
->83-type: LoadBalancer
+```
+>- 82 #nodePort: 30000
+>- 83 -type: LoadBalancer
 ``` 
 kubectl apply -f k8s/deployment.yaml
