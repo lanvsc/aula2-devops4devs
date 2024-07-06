@@ -1,4 +1,4 @@
-#CPASSOS E OMANDOS
+#PASSOS E COMANDOS
 
 -Fork e clone do repositório
 
