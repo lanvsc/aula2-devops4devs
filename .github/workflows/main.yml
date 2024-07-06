@@ -24,8 +24,9 @@ jobs:
           push: true
           file: ./src/Review-Filmes.Web/Dockerfile
           tags: |
-                lanvsc/review-filmes:v${{github.run_number}}
+            lanvsc/review-filmes:v${{github.run_number}}
             lanvsc/review-filmes:latest
+
   CD:
     runs-on: ubuntu-latest
     needs: [CI]
