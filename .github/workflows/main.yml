@@ -20,7 +20,7 @@ jobs:
       - name: Construir imagem Docker e envio para Docker Hub
         uses: docker/build-push-action@v6.3.0
         with:
-          context: ./scr/
+          context: ./src
           push: true
           file: ./src/Review-Filmes.Web/Dockerfile
           tags: |
