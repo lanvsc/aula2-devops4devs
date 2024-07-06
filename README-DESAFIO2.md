@@ -1,4 +1,4 @@
-### **AULA 2**
+### **DESAFIO AULA 2**
 
 **- Criar Cluster:**
 ```
