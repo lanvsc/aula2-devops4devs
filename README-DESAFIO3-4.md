@@ -1,4 +1,4 @@
-### **DESAFIO AULAS 3-4**
+### **DESAFIO AULAS 3-4 - AWS e GitHub Actions.**
 **- Configurar/autenticar AWS CLI:**
 ```
 aws configure
