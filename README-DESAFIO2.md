@@ -1,4 +1,4 @@
-### **DESAFIO AULA 2**
+### **DESAFIO AULA 2 - Implementando e Gerenciando uma Aplicação no Kubernetes**
 
 **- Criar Cluster:**
 ```
